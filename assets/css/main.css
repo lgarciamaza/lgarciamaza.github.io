@@ -170,7 +170,11 @@ body {
           -moz-animation: bg 18s linear infinite;
           -webkit-animation: bg 18s linear infinite;
           -ms-animation: bg 18s linear infinite;
-          animation: bg 18s linear infinite; } }
+          animation: bg 18s linear infinite;
+          height: 100%;
+          width: 250%;
+          background-size: 1400px 2050px;
+          background-repeat: no-repeat; } }
     #bg div:only-child {
       -moz-animation-direction: alternate !important;
       -webkit-animation-direction: alternate !important;
